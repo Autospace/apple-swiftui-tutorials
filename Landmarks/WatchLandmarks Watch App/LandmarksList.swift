@@ -1,8 +1,8 @@
 //
 //  LandmarksList.swift
-//  Landmarks
+//  WatchLandmarks Watch App
 //
-//  Created by Aliaksei Mastounikau on 11.04.23.
+//  Created by Aliaksei Mastounikau on 28.04.23.
 //
 
 import SwiftUI
@@ -23,7 +23,7 @@ struct LandmarksList: View {
                 Toggle(isOn: $showFavoritesOnly) {
                     Text("Favorites only")
                 }
-                
+
                 ForEach(filteredLandmarks) { landmark in
                     NavigationLink {
                         LandmarkDetail(landmark: landmark)
@@ -33,18 +33,13 @@ struct LandmarksList: View {
                 }
             }
             .navigationTitle("Landmarks")
-            .frame(minWidth: 300)
         }
     }
 }
 
 struct LandmarksList_Previews: PreviewProvider {
     static var previews: some View {
-        ForEach(["iPhone SE (3rd generation)", "iPhone 14 Pro", "iPad Air (5th generation)"], id: \.self) { deviceName in
-            LandmarksList()
-                .previewDevice(PreviewDevice(rawValue: deviceName))
-                .previewDisplayName(deviceName)
-                .environmentObject(ModelData())
-        }
+        LandmarksList()
+            .environmentObject(ModelData())
     }
 }
