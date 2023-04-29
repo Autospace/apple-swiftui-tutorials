@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		105A551729FD5FC8003C8276 /* LandmarksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BDF6D229FC3F52006BA93E /* LandmarksList.swift */; };
 		106399C829EC4844007B5DD0 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106399C729EC4844007B5DD0 /* CategoryHome.swift */; };
 		106399CA29EC4ABB007B5DD0 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106399C929EC4ABB007B5DD0 /* CategoryRow.swift */; };
 		106399CC29EC4CAB007B5DD0 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106399CB29EC4CAB007B5DD0 /* CategoryItem.swift */; };
@@ -36,7 +37,6 @@
 		10BDF6C829FC36DE006BA93E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EAAFF229E31C800068F8A3 /* MapView.swift */; };
 		10BDF6C929FC36FD006BA93E /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EAAFFD29E5A6DD0068F8A3 /* LandmarkRow.swift */; };
 		10BDF6CB29FC3768006BA93E /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BDF6CA29FC3768006BA93E /* LandmarkDetail.swift */; };
-		10BDF6D729FC4033006BA93E /* LandmarksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BDF6D229FC3F52006BA93E /* LandmarksList.swift */; };
 		10EAAFE329E314F10068F8A3 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EAAFE229E314F10068F8A3 /* LandmarksApp.swift */; };
 		10EAAFE529E314F10068F8A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EAAFE429E314F10068F8A3 /* ContentView.swift */; };
 		10EAAFE729E314F40068F8A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10EAAFE629E314F40068F8A3 /* Assets.xcassets */; };
@@ -560,7 +560,7 @@
 				10FBA53629F05223000D6C4E /* Landmark.swift in Sources */,
 				10FBA53929F05223000D6C4E /* LandmarkRow.swift in Sources */,
 				10FBA53A29F05223000D6C4E /* Hike.swift in Sources */,
-				10BDF6D729FC4033006BA93E /* LandmarksList.swift in Sources */,
+				105A551729FD5FC8003C8276 /* LandmarksList.swift in Sources */,
 				10FBA54629F05999000D6C4E /* NotificationController.swift in Sources */,
 				10FBA54029F05223000D6C4E /* Profile.swift in Sources */,
 				10FBA53829F05223000D6C4E /* ModelData.swift in Sources */,
